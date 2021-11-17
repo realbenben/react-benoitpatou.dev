@@ -1,0 +1,21 @@
+nav {
+  height: 50px;
+  background-color: linear-gradient(45deg, #9c0e9c);
+}
+nav .liste {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  list-style: none;
+  background-color: linear-gradient(45deg, #9c0e9c);
+}
+nav .items {
+  margin-right: 10px;
+  color: #f1f1f1f1;
+  cursor: pointer;
+}
+nav btn {
+  display: none;
+} /*# sourceMappingURL=navbar.css.map */
