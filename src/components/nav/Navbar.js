@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { FaBeer } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Navbar() {
