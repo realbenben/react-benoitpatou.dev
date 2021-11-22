@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 
+import { Link } from "react-router-dom";
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [largeur, setLargeur] = useState(window.innerWidth);
@@ -23,9 +24,21 @@ export default function Navbar() {
     <nav>
       {(toggleMenu || largeur > 500) && (
         <ul className="liste">
-          <li className="items">home</li>
-          <li className="items">mon CV</li>
-          <li className="items">me contacter</li>
+          <li className="items">
+            <Link className="Nav__link" to="/Home">
+              Home
+            </Link>
+          </li>
+          <li className="items">
+            <Link className="Nav__link" to="/Cv">
+              Mon CV
+            </Link>
+          </li>
+          <li className="items">
+            <Link className="Nav__link" to="/Contact">
+              Me contacter
+            </Link>
+          </li>
         </ul>
       )}
 

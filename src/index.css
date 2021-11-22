@@ -15,8 +15,11 @@ nav .liste {
 }
 nav .items {
   margin-right: 10px;
-  color: #f1f1f1f1;
   cursor: pointer;
+}
+nav .Nav__link {
+  color: #f1f1f1f1 !important;
+  text-decoration: none;
 }
 nav .btn {
   display: none;
