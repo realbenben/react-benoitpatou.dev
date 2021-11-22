@@ -12,8 +12,7 @@ function App() {
         <Navbar />
       </header>
       <Routes>
-        {/* <Route path="/" component={Home} /> */}
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/Cv" element={<Cv />} />
         <Route path="/Contact" element={<Contact />} />
         <Route component={Error} />

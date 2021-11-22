@@ -25,7 +25,7 @@ export default function Navbar() {
       {(toggleMenu || largeur > 500) && (
         <ul className="liste">
           <li className="items">
-            <Link className="Nav__link" to="/Home">
+            <Link className="Nav__link" to="/">
               Home
             </Link>
           </li>
