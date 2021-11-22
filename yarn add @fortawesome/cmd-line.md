@@ -6,6 +6,8 @@
 
 - npm i sass
 
+- npm i -save react-router-dom
+
 <!-- les icones -->
 
 - yarn add @fortawesome/fontawesome-free
